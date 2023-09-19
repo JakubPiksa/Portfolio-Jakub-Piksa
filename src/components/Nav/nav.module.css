@@ -1,0 +1,13 @@
+@import '../../utils/colors.css';
+
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  color: var(--text-color);
+}
+
+.navElement {
+  padding: 10px;
+}

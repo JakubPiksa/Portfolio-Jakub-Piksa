@@ -1,11 +1,12 @@
 body {
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
-  background: linear-gradient(306deg, darkviolet, #290338, #290338);
+  background: linear-gradient(306deg, rgb(56, 0, 80), #290338, #290338);
   background-size: 180% 180%;
-  animation: gradient-animation 24s ease infinite;
+  animation: gradient-animation 30s ease infinite;
+  margin: 0;
+  height: 100vh;
 }
 
 @keyframes gradient-animation {
@@ -21,7 +22,7 @@ body {
 }
 
 .h1 {
-  color: #9b59b6;
+  color: #c18dd5;
 }
 
 h2 {
