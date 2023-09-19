@@ -3,12 +3,27 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background: linear-gradient(306deg, darkviolet, #290338, #290338);
+  background-size: 180% 180%;
+  animation: gradient-animation 24s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .h1 {
-  color: hsl(332, 88%, 32%);
+  color: #9b59b6;
 }
 
 h2 {
-  color: hsl(332, 88%, 32%);
+  color: #d5a6bd;
 }

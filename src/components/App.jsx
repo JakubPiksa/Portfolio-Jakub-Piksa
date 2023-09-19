@@ -54,8 +54,8 @@ const App = () => {
   );
 
   return (
-    <div>
-      <h1 className={css.h1}>TESTOWANIE</h1>
+    <div className={css.gradientbackground}>
+      <h1 className={css.h1}>Portfolio Jakub Piksa </h1>
       <ContactForm onAddContact={handleAddContact} />
       <h2>Contacts</h2>
       <Filter filter={filter} onFilterChange={handleFilterChange} />
