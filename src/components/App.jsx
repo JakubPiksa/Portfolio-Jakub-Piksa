@@ -13,6 +13,7 @@ const App = () => {
       <h1 className={css.h1}>Portfolio Jakub Piksa </h1>
       <h2 className={css.h2}>WORK IN PROGRESS</h2>
       <Nav />
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
