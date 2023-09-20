@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-jakub-piksa/static/css/main.fd4dabc1.css",
-    "main.js": "/portfolio-jakub-piksa/static/js/main.f6648534.js",
+    "main.js": "/portfolio-jakub-piksa/static/js/main.dbe6b6a7.js",
     "index.html": "/portfolio-jakub-piksa/index.html",
     "main.fd4dabc1.css.map": "/portfolio-jakub-piksa/static/css/main.fd4dabc1.css.map",
-    "main.f6648534.js.map": "/portfolio-jakub-piksa/static/js/main.f6648534.js.map"
+    "main.dbe6b6a7.js.map": "/portfolio-jakub-piksa/static/js/main.dbe6b6a7.js.map"
   },
   "entrypoints": [
     "static/css/main.fd4dabc1.css",
-    "static/js/main.f6648534.js"
+    "static/js/main.dbe6b6a7.js"
   ]
 }
