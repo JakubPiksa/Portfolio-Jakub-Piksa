@@ -34,7 +34,7 @@ const Portfolio = () => {
           <a href='https://jarek-dzwolak.github.io/FILM_SEARCH_PROJECT-Group-ProjectJS/'>Project 8 - Movie finder, pretty complex project. Unfortunatly something happend and it stopped working</a>
         </div>
         <div className={css.portfolioListEl}>
-          <a>Project 9 - here is gonna be Node project that we are starting i october</a>
+          <a href='https://www.youtube.com/watch?v=HxkmXnRQblE'>Project 9 - here is gonna be Node project that we are starting i october</a>
         </div>
       </div>
     </div>
