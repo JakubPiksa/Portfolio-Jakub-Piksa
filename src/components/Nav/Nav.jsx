@@ -6,7 +6,7 @@ const NavMenu = () => {
     <nav className="navigation">
       <ul className={css.navList}>
         <li className={css.navElement}>
-          <NavLink to="/portfolio-jakub-piksa"><button>Home</button></NavLink>
+          <NavLink to="/"><button>Home</button></NavLink>
         </li>
         <li className={css.navElement}>
           <NavLink to="/portfolio"><button>My projects</button></NavLink>
