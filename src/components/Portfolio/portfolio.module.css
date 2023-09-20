@@ -1,0 +1,11 @@
+body {
+  color: aliceblue;
+}
+
+.portfolioContainer ul {
+  list-style: none;
+}
+
+.portfolioListEl a {
+  text-decoration: none;
+}
