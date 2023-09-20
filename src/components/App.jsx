@@ -9,7 +9,7 @@ import css from './app.module.css';
 
 const App = () => {
   return (
-    <Router>
+    <Router >
       <div className={css.gradientbackground}>
         <h1 className={css.h1}>Portfolio Jakub Piksa </h1>
         <h2 className={css.h2}>WORK IN PROGRESS</h2>
