@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-jakub-piksa/static/css/main.fd4dabc1.css",
-    "main.js": "/portfolio-jakub-piksa/static/js/main.a99729c1.js",
+    "main.css": "/portfolio-jakub-piksa/static/css/main.65b55415.css",
+    "main.js": "/portfolio-jakub-piksa/static/js/main.6b2059ee.js",
+    "static/media/officialPortrait.jpeg": "/portfolio-jakub-piksa/static/media/officialPortrait.73538ff53a6dd269d978.jpeg",
     "index.html": "/portfolio-jakub-piksa/index.html",
-    "main.fd4dabc1.css.map": "/portfolio-jakub-piksa/static/css/main.fd4dabc1.css.map",
-    "main.a99729c1.js.map": "/portfolio-jakub-piksa/static/js/main.a99729c1.js.map"
+    "main.65b55415.css.map": "/portfolio-jakub-piksa/static/css/main.65b55415.css.map",
+    "main.6b2059ee.js.map": "/portfolio-jakub-piksa/static/js/main.6b2059ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd4dabc1.css",
-    "static/js/main.a99729c1.js"
+    "static/css/main.65b55415.css",
+    "static/js/main.6b2059ee.js"
   ]
 }
