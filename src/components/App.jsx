@@ -4,8 +4,10 @@ import Home from './Home/Home';
 import Portfolio from './Portfolio/Portfolio';
 import Nav from './Nav/Nav';
 import About from './About/About';
+import Contact from './Contact/Contact';
 
 import css from './app.module.css';
+
 
 const App = () => {
   return (
@@ -18,8 +20,10 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
+    
   );
 };
 

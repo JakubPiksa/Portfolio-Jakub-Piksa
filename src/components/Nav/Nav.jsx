@@ -1,3 +1,4 @@
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import css from './nav.module.css';
 
@@ -15,7 +16,7 @@ const NavMenu = () => {
           <NavLink to="/portfolio"><button>My projects</button></NavLink>
         </li>
         <li className={css.navElement}>
-          <a href='https://jakubpiksa.github.io/goit-react-hw-05-movies/'><button>Contact</button></a>
+          <NavLink to='/contact'><button>Contact</button></NavLink>
         </li>
       </ul>
     </nav>
