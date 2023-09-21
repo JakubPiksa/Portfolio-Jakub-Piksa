@@ -1,0 +1,38 @@
+@import '../../utils/colors.css';
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.contactContainer h1 {
+  color: aliceblue;
+  font-size: 36px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contactItem img {
+  margin-right: 10px;
+}
+
+.contactItem a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.contactItem a:hover {
+  color: var(--accent-alt-color);
+}

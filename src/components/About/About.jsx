@@ -1,6 +1,8 @@
+import css from './about.module.css'
+
 const About = () => {
     return (
-        <h1>WORK IN PROGRES About ME</h1>
+        <h1 className={css.header}>WORK IN PROGRES About ME</h1>
     )
 }
    

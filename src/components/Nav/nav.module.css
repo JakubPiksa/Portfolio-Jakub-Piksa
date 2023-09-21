@@ -1,13 +1,51 @@
 @import '../../utils/colors.css';
 
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
 .navList {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   list-style: none;
   color: var(--text-color);
 }
 
-.navElement {
-  padding: 10px;
+.navElement a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.navElement a:hover {
+  text-decoration: none;
+}
+
+.navElement.active {
+  background-color: var(--accent-color);
+  color: var(--accent-alt-color);
+  border: 2px solid var(--accent-alt-color);
+}
+
+.navElement button {
+  background-color: transparent;
+  color: var(--text-color);
+  border: 2px solid var(--accent-alt-color);
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navElement button:hover {
+  background-color: var(--accent-color);
+  color: var(--accent-alt-color);
+}
+
+.navElement button.active {
+  background-color: var(--accent-color);
+  color: var(--accent-alt-color);
+  border: 2px solid var(--accent-alt-color);
 }

@@ -63,5 +63,6 @@ email: kuba.piksa@wp.pl
 
 Thanks for visiting, and enjoy exploring my portfolio!
 
-[Check out my LinkedIn profile](https://www.linkedin.com/in/jakub-piksa-318b37245/)
-[Check out my portfolio](https://jakubpiksa.github.io/portfolio-jakub-piksa)
+# [Check out my LinkedIn profile](https://www.linkedin.com/in/jakub-piksa-318b37245/)
+
+# [Check out my portfolio](https://jakubpiksa.github.io/portfolio-jakub-piksa)
