@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className={css.homeContainer}>
       <h1>Welcome to My Portfolio</h1>
-<span className={css.photoContainer}>
+      <span className={css.photoContainer}>
       <img src={myPhoto} alt='Jakub Piksa In Turkey' />
       <p className={css.homeTextWelcome}>
         Hello there! I'm Jakub Piksa, a passionate and creative FullStack Developer based in Poland. Welcome to my digital playground, where I showcase my skills, projects, and a glimpse of who I am.

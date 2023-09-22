@@ -37,3 +37,9 @@ body {
 h2 {
   color: #d5a6bd;
 }
+
+@media (min-width: 1280px) {
+  body {
+    margin: 20px;
+  }
+}
