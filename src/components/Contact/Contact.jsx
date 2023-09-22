@@ -11,8 +11,8 @@ const Contact = () => {
           <a href="https://github.com/jakubpiksa">GitHub</a>
         </div>
         <div className={css.contactItem}>
-          <img src="path/to/linkedin-icon.png" alt="LinkedIn" />
-          <a href="https://www.linkedin.com/in/jakubpiksa/">LinkedIn</a>
+          <img src='../../utils/iconsP.svg#icon-linkedin'></img>
+          <a href="https://www.linkedin.com/in/jakub-piksa-318b37245/">LinkedIn</a>
         </div>
         {/* Add more contact items (email, phone, etc.) */}
       </div>
