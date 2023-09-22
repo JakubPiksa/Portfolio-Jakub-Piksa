@@ -4,19 +4,19 @@ import css from './nav.module.css';
 
 const NavMenu = () => {
   return (
-    <nav className="navigation">
+    <nav className={css.navigation}>
       <ul className={css.navList}>
         <li className={css.navElement}>
-          <NavLink to="/"><button>Home</button></NavLink>
+          <NavLink to="/"><button className={css.navButton}>Home</button></NavLink>
         </li>
         <li className={css.navElement}>
-          <NavLink to="/about"><button>About me</button></NavLink>
+          <NavLink to="/about"><button className={css.navButton}>About me</button></NavLink>
         </li>
         <li className={css.navElement}>
-          <NavLink to="/portfolio"><button>My projects</button></NavLink>
+          <NavLink to="/portfolio"><button className={css.navButton}>My projects</button></NavLink>
         </li>
         <li className={css.navElement}>
-          <NavLink to='/contact'><button>Contact</button></NavLink>
+          <NavLink to='/contact'><button className={css.navButton}>Contact</button></NavLink>
         </li>
       </ul>
     </nav>

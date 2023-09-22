@@ -4,9 +4,9 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background: linear-gradient(306deg, rgb(56, 0, 80), #290338, #290338);
+  background: linear-gradient(90deg, rgb(95, 1, 134), #290338, #530672);
   background-size: 180% 180%;
-  animation: gradient-animation 30s ease infinite;
+  animation: gradient-animation 20s ease infinite;
   margin: 0;
   height: 100vh;
 }
@@ -24,18 +24,20 @@ body {
 }
 
 .h1 {
-  margin: 40px auto;
+  margin: 40px 50px;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 100px;
+  font-size: 300%;
   font-weight: bold;
   color: var(--header-color);
   text-align: center;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(19, 5, 5, 0.3);
 }
 
 h2 {
   color: #d5a6bd;
+  justify-content: center;
+  text-align: center;
 }
 
 @media (min-width: 1280px) {

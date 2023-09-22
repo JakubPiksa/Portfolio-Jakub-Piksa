@@ -6,11 +6,12 @@
 }
 
 .navList {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
+  padding-left: 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
   list-style: none;
+  place-items: center;
   color: var(--text-color);
 }
 
@@ -30,13 +31,18 @@
 }
 
 .navElement button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: transparent;
   color: var(--text-color);
   border: 2px solid var(--accent-alt-color);
   border-radius: 20px;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 1rem;
   transition: background-color 0.3s ease, color 0.3s ease;
+  width: 110%;
+  line-height: 1;
 }
 
 .navElement button:hover {
@@ -48,4 +54,36 @@
   background-color: var(--accent-color);
   color: var(--accent-alt-color);
   border: 2px solid var(--accent-alt-color);
+}
+
+@media (min-width: 768px) {
+  .navList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .navElement button {
+    font-size: 1.2rem;
+    padding: 15px 25px;
+    border-radius: 25px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .navList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .navElement button {
+    font-size: 1.5rem;
+    padding: 20px 30px;
+    border-radius: 30px;
+  }
 }

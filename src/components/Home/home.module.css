@@ -17,20 +17,22 @@
 }
 
 .homeContainer h1 {
-  color: var(--accent-light-color);
+  color: var(--header-color);
   font-size: 2.5rem;
   text-align: center;
   padding: 20px;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(19, 5, 5, 0.3);
 }
 
 .homeContainer h2 {
   font-size: 2rem;
-  padding: 20px;
+  padding-top: 20px;
+  text-align: center;
 }
 
 .homeText {
   color: var(--text-color);
-  padding: 1rem;
+  padding: 0rem 1rem;
   font-size: 1.5rem;
   text-align: center;
 }
