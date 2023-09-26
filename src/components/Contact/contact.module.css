@@ -21,16 +21,21 @@
 .contactItem {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 10px;
 }
 
-.contactItem img {
-  margin-right: 10px;
+.contactItemImg {
+  width: 15%;
+  padding: 20px;
+  fill: var(--text-color);
+  color: var(--text-color);
 }
 
 .contactItem a {
-  color: var(--accent-color);
+  color: var(--text-color);
   text-decoration: none;
+  font-size: 250%;
 }
 
 .contactItem a:hover {
