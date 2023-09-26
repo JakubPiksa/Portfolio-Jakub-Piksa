@@ -2,8 +2,9 @@
 
 .contactContainer {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 20px;
 }
 
@@ -14,28 +15,30 @@
 
 .contactInfo {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
 }
 
 .contactItem {
   display: flex;
+
   align-items: center;
   justify-content: center;
-  margin-bottom: 10px;
 }
 
-.contactItemImg {
-  width: 15%;
+.contactItem img {
+  width: 20%;
   padding: 20px;
-  fill: var(--text-color);
-  color: var(--text-color);
 }
-
 .contactItem a {
-  color: var(--text-color);
+  font-size: 150%;
   text-decoration: none;
-  font-size: 250%;
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
 }
 
 .contactItem a:hover {
