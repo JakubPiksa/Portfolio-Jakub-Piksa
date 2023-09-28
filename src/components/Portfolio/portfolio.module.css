@@ -23,16 +23,19 @@ body {
 }
 
 .portfolioList {
-  list-style: none;
-  text-align: center;
+  
+  display: grid;
 }
 
 .portfolioListEl {
   text-decoration: none;
   color: var(--text-color);
-  padding: 0rem 1rem;
   font-size: 1.5rem;
   text-align: center;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 30%;
 }
 
 .portfolioListEl a {
