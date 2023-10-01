@@ -1,0 +1,10 @@
+@import '../../utils/colors.css';
+
+.textContainer {
+  padding: 10%;
+  text-align: center;
+}
+
+.text {
+  color: var(--text-color);
+}
