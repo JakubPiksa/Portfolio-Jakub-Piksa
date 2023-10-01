@@ -13,7 +13,9 @@ body {
   font-size: 2.5rem;
   text-align: center;
   padding: 20px;
-  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(19, 5, 5, 0.3);
+  text-shadow:
+    2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(19, 5, 5, 0.3);
 }
 
 .portfolioContainer h2 {
@@ -23,11 +25,21 @@ body {
 }
 
 .portfolioList {
-  
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .portfolioListEl {
+  color: #000;
+  background: rgb(27, 0, 41);
+  background: linear-gradient(
+    90deg,
+    rgba(27, 0, 41, 1) 0%,
+    rgba(41, 27, 45, 1) 78%,
+    rgba(87, 0, 117, 1) 100%
+  );
   text-decoration: none;
   color: var(--text-color);
   font-size: 1.5rem;
@@ -36,6 +48,10 @@ body {
   border-radius: 20px;
   padding: 30px;
   max-width: 30%;
+  -webkit-box-shadow: 2px 4px 45px -19px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 4px 45px -19px rgba(0, 0, 0, 1);
+  box-shadow: 2px 4px 45px -19px rgba(0, 0, 0, 1);
+  margin-bottom: 30px;
 }
 
 .portfolioListEl a {
@@ -49,4 +65,25 @@ body {
 .portfolioListEl a:hover,
 .portfolioListEl a:focus {
   color: var(--accent-alt-color);
+}
+
+/* tablet */
+
+@media (min-width: 768px) {
+  body {
+    margin: 20px;
+  }
+
+  .portfolioList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10%;
+    margin-top: 10%;
+  }
+
+  .portfolioListEl {
+    max-width: 245px;
+    height: 145px;
+  }
 }

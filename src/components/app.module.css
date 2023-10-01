@@ -31,11 +31,13 @@ body {
   color: var(--header-color);
   text-align: center;
   letter-spacing: 3px;
-  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3), 0px -4px 10px rgba(19, 5, 5, 0.3);
+  text-shadow:
+    2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(19, 5, 5, 0.3);
 }
 
 h2 {
-  color: #d5a6bd;
+  color: #c4d5a6;
   justify-content: center;
   text-align: center;
 }
