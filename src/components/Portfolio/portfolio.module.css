@@ -39,8 +39,8 @@ body {
   background: linear-gradient(
     90deg,
     rgba(27, 0, 41, 1) 0%,
-    rgba(41, 27, 45, 1) 78%,
-    rgba(87, 0, 117, 1) 100%
+    rgb(38, 17, 44) 78%,
+    rgb(46, 0, 61) 100%
   );
   text-decoration: none;
   color: var(--text-color);
@@ -81,7 +81,7 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   .portfolioListEl {

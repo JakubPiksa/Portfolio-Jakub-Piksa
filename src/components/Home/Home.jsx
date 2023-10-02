@@ -4,7 +4,7 @@ import myPhoto from '../../utils/images/officialPortrait.jpg'
 const Home = () => {
   return (
     <div className={css.homeContainer}>
-      <h1>Welcome to My Portfolio</h1>
+      <h1 className={css.homeContainerHeader}>Welcome to My Portfolio</h1>
       <span className={css.photoContainer}>
       <img src={myPhoto} alt='Jakub Piksa In Turkey' />
       <p className={css.homeTextWelcome}>

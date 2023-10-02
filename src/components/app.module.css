@@ -4,7 +4,7 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background: linear-gradient(90deg, rgb(95, 1, 134), #290338, #530672);
+  background: linear-gradient(90deg, #18222e, #290338, #272e39);
   background-size: 180% 180%;
   animation: gradient-animation 20s ease infinite;
   margin: 0;
@@ -37,9 +37,12 @@ body {
 }
 
 h2 {
-  color: #c4d5a6;
+  color: var(--header2-color);
   justify-content: center;
   text-align: center;
+  text-shadow:
+    2px 7px 5px var(--shadow-box-color),
+    0px -4px 10px var(--shadow-box-color);
 }
 
 @media (min-width: 1280px) {
