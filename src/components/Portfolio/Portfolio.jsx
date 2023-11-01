@@ -27,7 +27,11 @@ const Portfolio = () => {
         <div className={css.portfolioListEl}>
           <a href='https://jakubpiksa.github.io/goit-markup-hw-08/'><h3>Responsive HTML Page</h3>  My first serious project, a responsive HTML page.</a>
         </div>
+        <div className={css.portfolioListEl}>
+          <a href='cityfunapartments.pl'><h3>City fun apartments</h3> An application allowing for apartment/house browsing </a> 
+        </div>
       </div>
+        
         
       <h2>Team Projects</h2>
       
